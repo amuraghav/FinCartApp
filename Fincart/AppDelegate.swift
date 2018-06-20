@@ -24,6 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         setupPageControl()
         isUserLoggedIn()
         setUpRootViewController()
+        print(launchOptions)
         return true
     }
 
